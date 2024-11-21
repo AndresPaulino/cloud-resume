@@ -2222,3 +2222,39 @@ _:-ms-fullscreen,
   background-color: rgb(97, 97, 97);
   border: 1px solid black;
 }
+
+.resume .item {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.resume .item:last-child {
+  border-bottom: none;
+}
+
+.resume .item .date {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.resume .item .company {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.resume .item ul {
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+
+.resume .item ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.tag{
+  font-size: 6rem;
+}
